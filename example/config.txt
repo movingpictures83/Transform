@@ -1,0 +1,2 @@
+Prefix plugins/Transform/example/
+Plugin Transform inputfile abund.csv outputfile abund.transformed.csv
