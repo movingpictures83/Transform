@@ -51,7 +51,7 @@ class TransformPlugin:
             self.eucmeans[j] += (self.ADJ[i][j]/self.rowsums[i])*(self.ADJ[i][j]/self.rowsums[i])
          self.eucmeans[j] = math.sqrt(self.eucmeans[j])
          if (self.eucmeans[j] == 0):
-            print "WARNING: OTU ", self.bacteria[j], " IS ZERO IN ALL SAMPLES."
+            print("WARNING: OTU "+self.bacteria[j]+" IS ZERO IN ALL SAMPLES.")
 
 
    def output(self, filename):

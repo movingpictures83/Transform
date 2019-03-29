@@ -2,7 +2,7 @@
 # Language: Python
 # Input: CSV (abundances)
 # Output: CSV (shifted abundances)
-# Tested with: PluMA 1.0, Python 2.7
+# Tested with: PluMA 1.0, Python 3.6
 
 PluMA plugin that can take a CSV file of abundances and execute
 the algorithm of (Egozcue and Pawlowski-Glahn, 2016) to shift their values.
